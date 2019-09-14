@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2019/09/14/zi-zeng-yun-suan-fu-de-chong-zai/"/>
+      <url>/2019/09/14/zi-zeng-yun-suan-fu-de-chong-zai/</url>
+      
+        <content type="html"><![CDATA[<h1 id="自增（-）运算符的重载"><a href="#自增（-）运算符的重载" class="headerlink" title="自增（++）运算符的重载"></a>自增（++）运算符的重载</h1><blockquote><p>前缀++比后缀++的效率高，返回引用的效率比返回对象的效率高，所以前缀++返回引用，后缀++返回对象。</p></blockquote><p>C++通过特征标（参数列表）来区分重载函数，对于前置++和后置++,C++也是使用不同的特征标来进行区别，对于后置++，通过添加一个int型的参数进行区分，当函数被调用时，<strong>编译器传递一个0作为int参数</strong>的值给该函数。</p><h2 id="自增的前置形式"><a href="#自增的前置形式" class="headerlink" title="自增的前置形式"></a>自增的前置形式</h2><pre><code>&lt;type&gt;ClassName operator++(){    ...}</code></pre><p>##自增的后置形式<br>    <type>ClassName operator++(int)<br>    {<br>        …<br>    }</type></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2019/09/13/hello-world/"/>
       <url>/2019/09/13/hello-world/</url>
